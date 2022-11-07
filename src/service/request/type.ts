@@ -12,4 +12,6 @@ export interface CommonRequestInterceptors<T = AxiosResponse> {
 // 比正常属性的配置多一个拦截器属性
 export interface CommonRequestConfig<T = AxiosResponse> extends AxiosRequestConfig {
   interceptors?: CommonRequestInterceptors<T>
+  showLoading?: boolean
+  cancelInter?: boolean
 }

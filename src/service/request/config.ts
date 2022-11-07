@@ -1,6 +1,7 @@
-const BASE_URL = 'http://api.btstu.cn/qrcode/api.php?'
+const BASE_URL = 'https://rec.gdutelc.com/gdutrec'
 const TIME_OUT = 5000
 
+// http://192.168.123.19:91 https://rec-api.gdutelc.com/gdutrec
 // if (process.env.NODE_ENV === 'development') {
 //   BASE_URL = '/api'
 // } else if (process.env.NODE_ENV === 'production') {
@@ -8,5 +9,6 @@ const TIME_OUT = 5000
 // } else {
 //   BASE_URL = 'test'
 // }
+// https://rec.gdutelc.com/gdutrec
 
 export { BASE_URL, TIME_OUT }

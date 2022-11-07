@@ -13,7 +13,6 @@ const commonRequest = new CommonRequest({
       if (cookie) {
         console.log('当前登录状态正常')
       }
-
       return config
     },
 
